@@ -1,0 +1,59 @@
+/* -- Animation stuff -- */
+#popupBox-christmas {
+  animation-name: box-fadeIn;
+  animation-duration: 4s;
+}
+
+#popupBox-christmas {
+  position: absolute;
+  bottom: 2%;
+  opacity: 1;
+}
+
+@keyframes box-fadeIn {
+  0% {
+    opacity: 0.5;
+    bottom: 0%;
+  }
+  100% {
+    opacity: 1;
+    bottom: 2%;
+  }
+}
+
+.popupBox-wrapper {
+  display: block;
+  background-color: yellow;
+  border: solid 2px #000000;
+  border-radius: 10px;
+  width: 450px;
+  height: 200px;
+  position: relative;
+  padding: 20px 20px 10px;
+  margin: 0;
+}
+
+.popupBox-closeBtn {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+.popupBox-msg {
+  padding: 10px 5px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  height: 50%;
+}
+
+.popupBox-btn {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: solid 1px #ffffff;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 5px;
+  width: 50%;
+}
